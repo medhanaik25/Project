@@ -91,8 +91,7 @@ public class DepartmentServlet extends GenericServlet {
 		{
 			pw.println("<table border=1 cellspacing=10 cellpadding=10>");
 			pw.println("<th>");		pw.println("DEPT NO");	pw.println("</th>");
-			pw.println("<th>");		pw.println("DEPT NAME");pw.println("</th>");
-			pw.println("<th>");		pw.println("LOCATION"); pw.println("</th>");
+			
 			List<Department> deptList = ddi.findDepartments();
 			Iterator<Department> deptIter = deptList.iterator();
 			
