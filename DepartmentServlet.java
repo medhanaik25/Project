@@ -103,13 +103,6 @@ public class DepartmentServlet extends GenericServlet {
 								pw.println(deptObj.getDepartmentNumber());
 							pw.println("</td>");
 					
-							pw.println("<td>");
-								pw.println(deptObj.getDepartmentName());
-							pw.println("</td>");
-
-							pw.println("<td>");
-								pw.println(deptObj.getDepartmentLocation());
-							pw.println("</td>");
 							
 					pw.println("</tr>");
 				}
